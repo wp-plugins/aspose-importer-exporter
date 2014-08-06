@@ -1,4 +1,4 @@
-=== Aspose PDF Importer ===
+=== Aspose Importer & Exporter ===
 Contributors: fahadadeelgmailcom
 Contributor's website: http://cloud.aspose.com/
 Tags: wp importer exporter, wp pdf import,wordpress insert pdf text to editor,wp pdf reader,wordpress pdf importer page,wpasposepdfimport,wp aspose pdf import,aspos pdf importer,pdf reader aspose cloud,aspose cloud storage pdf reader
