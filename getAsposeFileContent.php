@@ -52,6 +52,7 @@ if($ext == 'pdf' || $ext == 'doc' || $ext == 'docx') {
     if(!isset($_REQUEST['aspose'])) {
 
         $folder = new Folder();
+		$uploadpath = str_replace("\\","/",$uploadpath);
         $uploadFile = $uploadpath .  $filename;
         $folder->uploadFile($uploadFile, '');
     }
