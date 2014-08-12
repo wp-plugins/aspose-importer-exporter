@@ -21,6 +21,9 @@ Aspose PDF Importer Plugin for WordPress allows developers to get/read contents 
 4. Activate the plugin through the 'Plugins' menu in WordPress.
 5. Click on 'Aspose Importer & Exporter' link under Settings menu to access the admin section.
 
+== Plugin Requirements ==
+- This Plugin works only with PHP version >=5.3
+
 == Features ==
 
 1. Functionality of reading text from the pdf/doc file. You can click on "Aspose File Importer" button, it will popup a box, which will display two tabs "Select Local Files" & "Select Aspose Cloud Storage File". You can click on "Select file" button and select a pdf or doc file from your local machine, after successful upload, you need to click on the "Insert File to editor" button. It will put the text from the selected file to the editor.
