@@ -40,14 +40,7 @@ class Converter {
         $v_output = Utils::validateOutput($responseStream);
 
         if ($v_output === '') {
-            if ($this->saveFormat == 'html') {
-                $save_format = 'zip';
-            } else {
-                $save_format = $this->saveFormat;
-            }
-            $outputPath = AsposeApp::$outPutLocation . Utils::getFileName($this->fileName) . '.' . $save_format;
-            Utils::saveFile($responseStream, $outputPath);
-            return $outputPath;
+            return $responseStream;
         } else {
             return $v_output;
         }
