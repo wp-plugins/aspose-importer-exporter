@@ -3,7 +3,7 @@
 Plugin Name: Aspose Importer & Exporter
 Plugin URI:
 Description: Aspose Importer Exporter is a plugin for reading content from different file formats and inserting them into the editor. Also It exports psots / page contents to different formats. 
-version: 1.0
+version: 3.0
 Author: Fahad Adeel
 Author URI: http://cloud.aspose.com/
 

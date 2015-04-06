@@ -23,8 +23,20 @@ if(isset($_REQUEST['action']) && $_REQUEST['action'] == 'export') {
 
     }
 
-    $download_path = plugin_dir_url(__FILE__) . 'aspose_import_export_download.php?file='.$result.'';
+    
+    $file = $result;
 
-    header('Location:'.$download_path );
+    $file_arr = explode('/',$file);
+
+    $file_name = $file_arr[count($file_arr) - 1];
+
+    header ("Content-type: octet/stream");
+
+    header ("Content-disposition: attachment; filename=".$file_name.";");
+
+    header("Content-Length: ".filesize($file));
+
+    readfile($file);
+
     exit;
 }

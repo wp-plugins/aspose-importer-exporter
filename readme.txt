@@ -4,8 +4,7 @@ Contributor's website: http://cloud.aspose.com/
 Tags: wp importer exporter, wp pdf import,wordpress insert pdf text to editor,wp pdf reader,wordpress pdf importer page,wpasposepdfimport,wp aspose pdf import,aspos pdf importer,pdf reader aspose cloud,aspose cloud storage pdf reader
 Requires at least: 2.8
 Tested up to: 3.8.1
-tag: 1.0
-Stable tag: 2.0
+Stable tag: 3.0
 License: GPLv2 or later
 
 Aspose Importer & Exporter reads text from the PDF / DOC files and insert it into the editor. It also exports files to DOC / PDF File formats.
@@ -41,3 +40,6 @@ Aspose PDF Importer Plugin for WordPress allows developers to get/read contents 
 == Changelog ==
 = 1.0 =
 * This is the first version
+
+= 3.0 =
+* Download file will start immediately. 
